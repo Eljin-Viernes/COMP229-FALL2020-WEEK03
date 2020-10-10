@@ -47,8 +47,12 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
+<<<<<<< HEAD
 // I editted  this so that I can see the results that i've change in (localhost:3000) so make sure
 // to take it out before uploading it to GitHub and Hiroku.
 app.listen(3000,function(){
   console.log("server is running on port 3000");
 });
+=======
+});
+>>>>>>> 691e9e7897b80c6aa2159708b4517251306b217e
