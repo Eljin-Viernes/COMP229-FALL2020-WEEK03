@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
-});
+//File Name: Week03 Part02
+//Eljin Viernes
+//300750971
+//October 8, 2020
 
 /* GET home page. */
 router.get('/Home', function(req, res, next) {
@@ -17,8 +17,8 @@ router.get('/about', function(req, res, next) {
 });
 
 /* GET Products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+router.get('/projects', function(req, res, next) {
+  res.render('index', { title: 'Projects' });
 });
 
 /* GET Services page. */
